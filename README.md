@@ -50,16 +50,12 @@ Thread Archiving: If you archive an email thread (or the email is no longer in y
 
 4. Enjoy automated email tracking and SLA notifications!
    
-Example Email Output:
+Example of the Email Format:
 
 Client Name: Client ABC
-
 From: client@clientdomain.com
-
 Subject: Weekly Report
-
 Link: View Thread (URL to the email)
-
 SLA Status: SLA: 4 hours left (in green) or SLA: 2 hours passed (in red)
 
 # Files
