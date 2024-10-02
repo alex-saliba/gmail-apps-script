@@ -34,8 +34,7 @@ Thread Archiving: If you archive an email thread (or the email is no longer in y
 
 4. Enjoy automated email tracking and SLA notifications!
 
-
-Example of the Email Format:
+# Example of the Email Format:
 
 Client Name: Client ABC
 
