@@ -12,17 +12,7 @@ This is a free script to add to your Google account (https://script.google.com/h
 
 - Customisable Parameters: Easily set the number of days to look back, the SLA time limit (in hours), and a list of client email domains to monitor.
 
-- Organised Summary Email: Receive a formatted email with the list of clients and relevant email threads, including:
-
--Client name (bold and underlined)
-
--Email subject and sender
-
--Link to the email thread
-
--Time left before SLA expiration or the time passed since expiration
-
--Color-coded SLA status (green for within SLA, red for breached SLA)
+- Organised Summary Email: Receive a formatted email with the list of clients and relevant email threads, including Client name, Email subject and sender, Link to the email thread, time left before SLA expiration or the time passed since expiration, Color-coded SLA status (green for within SLA, red for breached SLA)
 
 Thread Archiving: If you archive an email thread (or the email is no longer in your inbox), the script will ignore it in future checks, preventing unnecessary reminders.
 
