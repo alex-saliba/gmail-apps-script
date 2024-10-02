@@ -36,16 +36,19 @@ Thread Archiving: If you archive an email thread (or the email is no longer in y
 
 # Example of the Email Format:
 
-Client Name: Client ABC
+Client Name: Client One
 
 From: client@clientdomain.com
 
 Subject: Weekly Report
 
+Sent on: Wed, Sep 25, 4:22 PM
+
 Link: View Thread (URL to the email)
 
 SLA Status: SLA: 4 hours left (in green) or SLA: 2 hours passed (in red)
 
+(The details of each email found will be formatted like this as a list inside the report email sent to your address)
 
 # Files
 The single code.gs file handles the email tracking and SLA monitoring.
