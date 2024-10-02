@@ -28,18 +28,13 @@ Thread Archiving: If you archive an email thread (or the email is no longer in y
 
 1. Copy the script file to your Google Apps Script editor by going to https://script.google.com/home and click on  'New project'
 
-2. Customise the parameters at the top of the script:
-
-- numOfDaysToLookBack: The number of days to look back for client emails.
-
-- clientDomains: An array of client email domains to monitor (e.g., ['@clientdomain.com']).
-
-- slaHours: The number of hours before an SLA is considered breached.
+2. Customise the parameters at the top of the script, including The number of days to look back for client emails, an array of client email domains to monitor (e.g., ['@clientdomain.com']), the number of hours before an SLA is considered breached.
 
 3. Set up a trigger to run the script at your desired interval (e.g., daily or hourly).
 
 4. Enjoy automated email tracking and SLA notifications!
-   
+
+
 Example of the Email Format:
 
 Client Name: Client ABC
