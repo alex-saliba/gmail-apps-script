@@ -50,6 +50,24 @@ SLA Status: SLA: 4 hours left (in green) or SLA: 2 hours passed (in red)
 
 (The details of each email found will be formatted like this as a list inside the report email sent to your address)
 
+# How to Schedule Google Apps Script to Run Daily
+
+1. Open Your Google Apps Script Project: Open your script in the Google Apps Script editor by going to script.google.com or through your Google Workspace app (e.g., Sheets or Gmail).
+   
+2. Access the Triggers Page: In the Google Apps Script editor, click on the clock icon in the toolbar labeled Triggers (also referred to as Triggers from this project). This will open the triggers management page.
+   
+3. Create a New Trigger: Click on the + Add Trigger button at the bottom-right of the page.
+
+4. Set the Trigger Configuration:
+
+- Choose which function to run: Select the function you want to run automatically (e.g., checkClientEmailsAndSendReport).
+- Choose which deployment should run: Leave this as "Head" (the default setting).
+- Select event source: Choose Time-driven.
+- Select type of time-based trigger: Choose Day timer.
+- Select time of day: Choose the specific time of day you want the script to run (e.g., every day at 8:00 AM).
+
+5. Save and Authorize: Click Save after setting up the trigger. If this is your first time creating a trigger, you’ll be asked to grant authorization for the script to access certain Google services like Gmail. Click Authorize and follow the prompts to approve permissions.
+
 # Files
 The single code.gs file handles the email tracking and SLA monitoring.
 
