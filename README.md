@@ -60,7 +60,7 @@ SLA Status: SLA: 4 hours left (in green) or SLA: 2 hours passed (in red)
 
 4. Set the Trigger Configuration:
 
-- Choose which function to run: Select the function you want to run automatically (e.g., checkClientEmailsAndSendReport).
+- Choose which function to run: Select the function you want to run automatically (e.g., myGmailChecker).
 - Choose which deployment should run: Leave this as "Head" (the default setting).
 - Select event source: Choose Time-driven.
 - Select type of time-based trigger: Choose Day timer.
