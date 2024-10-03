@@ -55,3 +55,7 @@ The single code.gs file handles the email tracking and SLA monitoring.
 
 Feel free to customise the content to fit the specifics needs.
 For any questions, you can contact me by email at alexanderpsaliba@gmail.com.
+
+# Disclaimer:
+This Google Apps Script interacts with your Gmail inbox and requires access to read and send emails on your behalf. By using this script, you are granting the necessary permissions for it to perform these actions. Please ensure that you understand the security implications before running it on your account. The script processes client email domains and can expose email data, so it should be used with caution, especially if handling sensitive information.
+
