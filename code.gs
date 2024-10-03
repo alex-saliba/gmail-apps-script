@@ -2,9 +2,9 @@ function myGmailChecker() {
   
 // ----------- Customise Your Variables BELOW -------------
   var numOfDaysToLookBack = 7; // number of days to look back for threads
-  var clientDomains = ['@clientOne.com', '@clientTwo.com']; // list of client email domains to track
+  var clientDomains = ['@clientOne.com', '@clientTwo.com']; // list of client email domains to be searched for in your inbox
   var serviceLevelAgreementHours = 24; // SLA in hours
-  var myEmail = 'youremail@example.com'; // your email address to send the report to
+  var myEmail = 'youremail@example.com'; // ATTENTION: make sure to add YOUR OWN email address here to which the email report will be sent.
   var emailSubject = 'My SLA Report: Emails Needing Attention'; // customisable email subject
 
   // How to change the banner image (500x100) 
