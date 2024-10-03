@@ -18,7 +18,7 @@ Thread Archiving: If you archive an email thread (or the email is no longer in y
 
 # How It Works
 
-1. The script searches your Gmail inbox for emails from specific client domains (@clientname.com) where the last message was sent by the client within a customisable number of days (By default, it is set to check for emails received in the last 7 days)
+1. The script searches your Gmail inbox for emails from specific client domains (@clientname.com) where the last message was sent by the client within a customisable number of days (By default, it is set to check for emails received in the last 3 days)
 
 2. It calculates the hours left before the SLA expires or the hours that have passed since the last client message.
 
